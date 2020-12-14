@@ -1,0 +1,21 @@
+image: node:14
+
+stages:
+  - deploy
+
+create patch release:
+  stage: deploy
+  script:
+    - echo '//registry.npmjs.org/:_authToken=${NPM_TOKEN}'>.npmrc
+    - git remote set-url origin https://${CI_GIT_USERNAME}:${CI_GIT_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git
+    - git config --global user.email 'infrastructure@smallstack.com'
+    - git config --global user.name 'Kleiner Sack'
+    - git checkout -B "$CI_COMMIT_REF_NAME" "$CI_COMMIT_SHA"
+    - npm version patch
+    - git push --tags
+    - git push origin master
+    - npm publish
+  when: manual
+  only:
+    refs:
+      - master
