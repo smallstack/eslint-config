@@ -13,7 +13,7 @@ module.exports = {
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-floating-promises": 1,
-    "@typescript-eslint/no-unused-vars": ["warn", { "args": "none" }],
+    "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
     "no-warning-comments": ["warn", { "terms": ["fixme"] }],
     "semi": "warn",
     "quotes": "error",
