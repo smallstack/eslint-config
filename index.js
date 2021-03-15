@@ -11,7 +11,7 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-inferrable-types": "off",
-    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": 1,
     "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
     "no-warning-comments": ["warn", { "terms": ["fixme"] }],
