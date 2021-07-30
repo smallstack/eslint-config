@@ -34,7 +34,7 @@ module.exports = {
     "object-curly-spacing": ["error", "always"],
     "array-bracket-spacing": ["error", "always"],
     "computed-property-spacing": ["error", "always"],
-    "no-multi-spaces": ["error", "always"],
+    "no-multi-spaces": ["error"],
     "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "comma-dangle": ["error", "never"],
