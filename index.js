@@ -30,7 +30,7 @@ module.exports = {
     "no-case-declarations": "warn",
     "no-useless-escape": "warn",
     "no-prototype-builtins": "warn",
-    "indent": ["error", 2],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "no-multi-spaces": ["error"],
     "brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
     "comma-spacing": ["error", { "before": false, "after": true }],
@@ -39,5 +39,14 @@ module.exports = {
     "max-lines-per-function": ["warn", { max: 100, skipBlankLines: true, skipComments: true }],
     "complexity": ["warn"],
     "no-trailing-spaces": ["error"]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.spec.ts"],
+      "rules": {
+        "max-lines-per-function": "off",
+        "no-console": "off"
+      }
+    }
+  ]
 }
