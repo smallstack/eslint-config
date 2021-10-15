@@ -1,5 +1,5 @@
 module.exports = {
-  "plugins": ["@typescript-eslint", "rxjs"],
+  "plugins": ["@typescript-eslint", "rxjs", "@angular-eslint"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -19,6 +19,10 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
+    "@angular-eslint/prefer-on-push-component-change-detection": "warn",
+    "@angular-eslint/no-lifecycle-call": "error",
+    "@angular-eslint/prefer-output-readonly": "warn",
+    "@angular-eslint/relative-url-prefix": "warn",
     "rxjs/no-nested-subscribe": "warn",
     "rxjs/no-ignored-subscription": "warn",
     "no-console": "warn",
