@@ -1,6 +1,6 @@
 {
   "name": "@smallstack/eslint-config",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "ESLint Configuration for smallstack libraries & projects",
   "main": "index.js",
   "repository": {
