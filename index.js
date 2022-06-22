@@ -19,7 +19,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-unused-vars": ["error", { "args": "none" }],
-    "@angular-eslint/prefer-on-push-component-change-detection": "warn",
+    "@angular-eslint/prefer-on-push-component-change-detection": "error",
     "@angular-eslint/no-lifecycle-call": "error",
     "@angular-eslint/prefer-output-readonly": "warn",
     "@angular-eslint/relative-url-prefix": "warn",
