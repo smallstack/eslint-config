@@ -1,6 +1,6 @@
 {
   "name": "@smallstack/eslint-config",
-  "version": "1.0.10",
+  "version": "1.1.0",
   "description": "ESLint Configuration for smallstack libraries & projects",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,6 @@
     "eslint": ">= 3"
   },
   "devDependencies": {
-    "eslint-plugin-rxjs": "^3.3.5"
+    "eslint-plugin-rxjs": "^5.0.2"
   }
 }

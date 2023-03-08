@@ -25,6 +25,7 @@ module.exports = {
     "@angular-eslint/relative-url-prefix": "warn",
     "rxjs/no-nested-subscribe": "warn",
     "rxjs/no-ignored-subscription": "warn",
+    "rxjs/finnish": "warn",
     "no-console": "warn",
     "no-warning-comments": ["warn", { "terms": ["fixme"] }],
     "semi": "warn",
