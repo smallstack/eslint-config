@@ -13,9 +13,15 @@
   "author": "smallstack GmbH",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 8"
   },
   "devDependencies": {
-    "eslint-plugin-rxjs": "^5.0.2"
+    "eslint-plugin-rxjs": "^5.0.2",
+    "eslint-plugin-you-dont-need-momentjs": "^1.6.0"
+  },
+  "overrides": {
+    "eslint-plugin-you-dont-need-momentjs": {
+      "eslint": ">= 8"
+    }
   }
 }

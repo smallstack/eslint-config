@@ -3,7 +3,8 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:you-dont-need-momentjs/recommended"
   ],
   "rules": {
     "@typescript-eslint/explicit-member-accessibility": ["warn", {
