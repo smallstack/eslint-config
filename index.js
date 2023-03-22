@@ -1,5 +1,5 @@
 module.exports = {
-  "plugins": ["@typescript-eslint", "rxjs", "@angular-eslint"],
+  "plugins": ["@typescript-eslint", "rxjs", "@angular-eslint", "you-dont-need-momentjs"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
