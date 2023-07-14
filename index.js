@@ -1,10 +1,5 @@
 module.exports = {
-  plugins: [
-    "@typescript-eslint",
-    "rxjs",
-    "@angular-eslint",
-    "you-dont-need-momentjs",
-  ],
+  plugins: ["@typescript-eslint", "rxjs", "@angular-eslint"],
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
@@ -55,9 +50,6 @@ module.exports = {
     ],
     complexity: ["warn"],
     "no-trailing-spaces": ["error"],
-    "you-dont-need-momentjs/no-import-moment": "warn",
-    "you-dont-need-momentjs/no-moment-constructor": "warn",
-    "you-dont-need-momentjs/format": "warn",
   },
   overrides: [
     {
