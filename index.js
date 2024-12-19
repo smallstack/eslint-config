@@ -21,7 +21,10 @@ module.exports = {
     "@typescript-eslint/no-inferrable-types": "off",
     "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-floating-promises": "error",
-    "@typescript-eslint/no-unused-vars": ["error", { args: "none" }],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { args: "none", caughtErrors: "none" },
+    ],
     "@angular-eslint/prefer-on-push-component-change-detection": "error",
     "@angular-eslint/no-lifecycle-call": "error",
     "@angular-eslint/prefer-output-readonly": "warn",
